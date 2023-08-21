@@ -1,0 +1,72 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  min-width: 25rem;
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(31, 38, 51);
+}
+
+.number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: .75rem;
+}
+
+.icons {
+  width: 2rem;
+  height: 2rem;
+}
+
+.number p {
+  color: rgb(51, 191, 255);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.tags {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.tag {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid rgb(235, 238, 242);
+  border-radius: 9999px;
+}
+
+.misc {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+}

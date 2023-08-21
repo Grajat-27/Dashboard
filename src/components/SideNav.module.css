@@ -1,0 +1,80 @@
+.sideNav {
+  min-width: 25.6rem;
+  overflow: hidden;
+}
+
+.heading {
+  padding: 3rem 3.2rem 3rem 3.2rem;
+  height: 8.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0;
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  border-bottom: 1px solid rgb(233 235 240);
+}
+
+.navMenu {
+  width: 2rem;
+  height: 2rem;
+}
+
+.user {
+  padding: 3rem 3.2rem 3rem 3.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0;
+  position: relative;
+}
+
+.user::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 19.2rem;
+  border-bottom: 1px solid rgb(233 235 240);
+}
+
+.userImg {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  outline: 3px solid rgb(59 130 246);
+  outline-offset: 2px;
+}
+
+.info h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.info p {
+    font-size: 1.1rem;
+    color: rgb(184 191 204);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.unfold{
+    width: 2rem;
+    height: 2rem;
+}
+
+
